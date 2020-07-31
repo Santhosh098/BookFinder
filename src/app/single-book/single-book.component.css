@@ -1,0 +1,20 @@
+.example-card {
+    max-width: 250px;
+    margin-left: 70px;
+    margin-right: 0px;
+    margin-bottom: 20PX;
+    margin-top: 20PX;
+  }
+  
+  .example-header-image {
+    background-size: cover;
+  }
+  .no-underline:hover {
+    text-decoration: none;
+}
+.lift-card1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.lift-card2{
+    box-shadow: 10px 10px 5px grey;
+}

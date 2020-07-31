@@ -1,0 +1,22 @@
+<div class="row row-cols-1 row-cols-md-2 lift-card1">
+  <ng-container *ngFor="let item of ComponentData?.items">
+<mat-card class="example-card lift-card2">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{item?.volumeInfo?.title}}</mat-card-title>
+    <mat-card-subtitle>{{item?.volumeInfo?.subtitle}}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="{{item?.volumeInfo?.imageLinks?.smallThumbnail}}" alt="">
+  <mat-card-content>
+    <p>
+      {{item?.volumeInfo?.subtitle}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <span>
+      <a href="{{item?.volumeInfo?.canonicalVolumeLink}}" target="_blank" class="no-underline">Read More</a>
+    </span>    
+  </mat-card-actions>
+</mat-card>
+</ng-container>
+</div>

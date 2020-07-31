@@ -1,0 +1,13 @@
+.search-box{
+    margin-top: 30px;
+}
+.book-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+.search-text-input {
+    width: 350px;
+  }
